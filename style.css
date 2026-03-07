@@ -191,3 +191,70 @@ hr{
     background-color: #8a8fa8;
     margin: 25px 0;
 }
+
+/* ========================= */
+/* RESPONSIVO PARA CELULAR   */
+/* ========================= */
+
+@media (max-width: 600px){
+
+    .modal{
+        padding: 20px;
+        width: 95%;
+        max-height: 95vh;
+    }
+
+    header h1{
+        font-size: 24px;
+    }
+
+    header h2{
+        font-size: 14px;
+    }
+
+    /* ABOUT */
+
+    .aboutMe{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aboutMe img{
+        max-width: 150px;
+    }
+
+    .aboutMe p{
+        font-size: 16px;
+    }
+
+    /* SKILLS */
+
+    .skills li{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* PROJECTS */
+
+    .projects table{
+        font-size: 14px;
+    }
+
+    .projects th,
+    .projects td{
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    /* CONTACT */
+
+    .contact img{
+        max-width: 80px;
+    }
+
+    .contact li{
+        font-size: 16px;
+    }
+
+}
