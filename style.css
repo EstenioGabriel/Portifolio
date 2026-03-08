@@ -192,10 +192,8 @@ hr{
     margin: 25px 0;
 }
 
-/* ========================= */
-/* RESPONSIVO PARA CELULAR   */
-/* ========================= */
 
+/* TELA CELULAR  */
 @media (max-width: 600px){
 
     .modal{
